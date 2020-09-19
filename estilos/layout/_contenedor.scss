@@ -1,0 +1,37 @@
+.conteinerLayout{
+    margin: auto;
+    max-width: 1366px;
+    min-width: 940px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  400px 200px 2627px 869px;
+    grid-template-areas:'header' 
+                        'nav'
+                        'main'
+                        'footer';
+}
+nav{
+    
+    grid-area: nav;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+
+}
+footer{
+    grid-area: footer;
+
+}
+.conteinerNav{
+    height: 100%;
+    width: 940px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

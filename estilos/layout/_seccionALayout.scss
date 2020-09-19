@@ -1,0 +1,16 @@
+.seccionAlayout{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows:  100%;
+    grid-template-areas:'uno dos';
+    grid-column-gap: 10%;
+    &-parte1{
+        grid-area: uno;
+        border: black 2px solid;
+        background-color: #ffd801;
+
+    }
+    &-parte2{
+        grid-area: dos;
+    }
+}

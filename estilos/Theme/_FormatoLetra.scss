@@ -1,0 +1,66 @@
+$TamañoLetra-XXS:10px;
+$TamañoLetra-XS:12px;
+$TamañoLetra-S:14px;
+$TamañoLetra-M:16px;
+$TamañoLetra-L:23px;
+
+
+.formatoLetra1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-L;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #828282;
+    text-align: center;
+  }
+  .formatoLetra2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-M;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #8b8989;
+    text-align: center;
+  }
+  .formatoLetra3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-S;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #bebebe;
+    text-align: center;
+  }
+  .formatoLetra4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-M;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #bebebe;
+  }
+  .formatoLetra5 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-XXS;
+    letter-spacing: 0.04em;
+    color: #ac9515;
+  }
+  .formatoLetra6 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $TamañoLetra-XS;
+    letter-spacing: 0.04em;
+    color: #968210;
+  }
+ 
+
+
+  

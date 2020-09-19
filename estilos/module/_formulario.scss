@@ -1,0 +1,19 @@
+.formulario{
+    &-input{
+        height: 50px;
+        width: 150px;
+        color: #c6c6c6;
+        &::placeholder{
+            padding: 1em;
+            font-size: 12px;
+        }
+    }
+    &-button{
+        background-color: #ffd801;
+        color: #b79f1c;
+        height: 50px;
+        width: 120px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}

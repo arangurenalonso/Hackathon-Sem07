@@ -1,0 +1,51 @@
+.mainLayout{
+    width: 940px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  50px 250px 200px 50px 50px 250px 250px 50px 250px;
+    grid-template-areas:'uno' 
+                        'dos'
+                        'tres'
+                        'cuatro'
+                        'cinco'
+                        'seis'
+                        'siete'
+                        'ocho'
+                        'nueve';
+    grid-row-gap: 20px;
+
+    &-seccion:nth-child(1){
+        grid-area: uno;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &-seccion:nth-child(2){
+        grid-area: dos;
+    }
+    &-seccion:nth-child(3){
+        grid-area: tres;
+    }
+    &-seccion:nth-child(4){
+        grid-area: cuatro;
+    }
+    &-seccion:nth-child(5){
+        grid-area: cinco;
+    }
+    &-seccion:nth-child(6){
+        grid-area: seis;
+    }
+    &-seccion:nth-child(7){
+        grid-area: siete;
+    }
+    &-seccion:nth-child(8){
+        grid-area: ocho;
+    }
+    &-seccion:nth-child(9){
+        grid-area: nueve;
+    }
+                    }
+
+
