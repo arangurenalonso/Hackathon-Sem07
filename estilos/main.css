@@ -229,6 +229,9 @@ footer {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: #bebebe;
+}
+
+.formatoLetra3--centro {
   text-align: center;
 }
 
@@ -284,6 +287,12 @@ footer {
           flex-direction: column;
 }
 
+.menu--cambio {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .menu-cajaItem {
   width: 15%;
   height: 100%;
@@ -311,8 +320,30 @@ footer {
           flex-direction: row;
 }
 
+.menu-cajaItem3 {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .menu-icono {
   margin: 0 1em 0 1em;
+}
+
+.menu-icono--1 {
+  height: 100%;
+  border: 2px black solid;
+  border-radius: 50%;
+}
+
+.menu-Texto {
+  width: 60%;
 }
 
 .mainLayout {
@@ -357,12 +388,14 @@ footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: tres;
+  border: springgreen 2px solid;
 }
 
 .mainLayout-seccion:nth-child(4) {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: cuatro;
+  border: springgreen 2px solid;
 }
 
 .mainLayout-seccion:nth-child(5) {
@@ -463,5 +496,15 @@ footer {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.Tarjeta-Encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=main.css.map */

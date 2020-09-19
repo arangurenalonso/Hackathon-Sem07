@@ -33,7 +33,10 @@ $TamañoLetra-L:23px;
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #bebebe;
-    text-align: center;
+    &--centro{
+      text-align: center;
+
+    }
   }
   .formatoLetra4 {
     font-family: Helvetica;

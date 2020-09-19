@@ -27,9 +27,12 @@
     }
     &-seccion:nth-child(3){
         grid-area: tres;
+        border: springgreen 2px solid;
     }
     &-seccion:nth-child(4){
         grid-area: cuatro;
+        border: springgreen 2px solid;
+
     }
     &-seccion:nth-child(5){
         grid-area: cinco;

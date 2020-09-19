@@ -23,6 +23,7 @@
         justify-content: space-around;
     }
     &-Encabezado{
-
+        display: flex;
+        flex-direction: column;
     }
 }
